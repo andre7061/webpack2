@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Open-Sans';
+    src: url(./fonts/OpenSans-Regular.woff2) format('woff2'),
+    url(./fonts/OpenSans-Regular.woff) format('woff')
+}
+
+h1{
+    text-align: center;
+}
+body{
+    background-color: grey;
+    font-family: 'Open-Sans';
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.card{
+    max-width: 200px;
+    width: 100%;
+    height: 200px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
